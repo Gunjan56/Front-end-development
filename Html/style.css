@@ -1,0 +1,28 @@
+body{
+    background-color: skyblue;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 10px;
+    
+}
+h1, p{
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+}
+form{
+   font-weight: 100;
+   text-align: center; 
+}
+#para{
+    margin-left:  -13px;
+    padding-left: 0%;
+    text-align: right;
+    align-items: start;
+    
+}
+#h1{
+    margin: 20px;
+    align-items: start;
+}
