@@ -1,4 +1,4 @@
-//array methods
+/*//array methods
 //reverse method
 // const twoTimes = [2,4,6,8,10];
 const arrString = ["a", "b", "c", "d"];
@@ -63,10 +63,37 @@ const arr = [1,2,3,6,12,14,15];
 arr.forEach( (i) => {
     console.log( i+1);
 });
-
+*/
 //homework
 //use function expression or function declaration of anonymas instead of arrow function
+//function for every method
+function everyMethod(e){
+    return e > 10;
+}
 
+function findMethod(e){
+    return e > 8;
+}
+function findIndexMethod(e){
+    return e > 8;
+}
+function someMethod(e){
+    return e > 6;
+}
+function sortAscending(a,b){
+    return a-b;
+}
+function sortdescending(a,b){
+    return b-a;
+}
+const arr = [2,4,5,6,7,2,10];//change this array accordingly
+console.log(arr.every(everyMethod));
+console.log(arr.find(findMethod));
+console.log(arr.findIndex(findIndexMethod));
+console.log(arr.some(someMethod));
+console.log(arr.sort(sortAscending));
+console.log(arr.sort(sortdescending));
+/*
 //scheduling setTimeout and setInterval
 //syntax of set timeout
 // setTimeout(function, delay);
@@ -164,3 +191,4 @@ if (vitaminPercentage === false) console.log("person is not heathy");
 const StudentsHeight = [162,150,162,172,166,150,177,164,166,182];
 const height = StudentsHeight.sort((a,b) => b-a);
 console.log(height.forEach((i, e) => console.log(`height: ${i} index: ${e}`)));
+*/
