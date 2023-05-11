@@ -166,7 +166,7 @@ clearInterval(timerr)
 // if food is delivered ask for rating after 5 seconds if food is Not delivered after 
 // 5 seconds say sorry in console
 function ratingApp(fooddelivery){
-    if (fooddelivery==true){
+    if (fooddelivery===true){
         console.log("Food is delivered");
         // prompt("Please Rate our app");
     }
